@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Bradley Hand ITC";
+    src: url("../fonts/BRADHITC.TTF");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font: 12px Arial, Tahoma, Verdana, sans-serif;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 948px;
+    min-height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header{
+    margin: 0 auto;
+    background: linear-gradient(to top, #c10c05, #f92e02);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 948px;
+    height: 84px;
+}
+#logo{
+    display: inline-block;
+    background: url("../img/logo.png") no-repeat center;
+    width: 157px;
+    height: 44px;
+    margin-top: 16px;
+    margin-left: 60px;
+}
+.logo_menu{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 627px;
+    height: 37px;
+    position: relative;
+    top: -37px;
+    left: 50px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+footer{
+    margin: 0 auto;
+    background: linear-gradient(to top, #ffffff, #d5d3d3);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 948px;
+    height: 43px;
+    position: relative;
+    text-align: center;
+}
+footer .line{
+    position: absolute;
+    background-color: #e72a0f;
+    width: 100%;
+    height: 7px;
+    top: 36px;
+}
+footer p{
+    font: normal 20px/20px "Bradley Hand ITC", Arial, "Times New Roman", sans-serif;
+    margin: 0;
+    padding-top: 7px;
+}
+footer p span{
+    position: absolute;
+    top: 12px;
+
+    font-size: 36px;
+}
+.main{
+    display: block;
+    margin: 5px auto;
+    border: 1px #cccccc solid;
+    min-height: 300px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+li{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.logo_menu ul li a, .logo_menu ul li a:hover{
+    display: block;
+    text-decoration: none;
+    padding-top: 9px;
+    font-family: Tahoma,Verdana,sans-serif;
+    font-size: 14px;
+    color: #000000;
+    width: 205px;
+    height: 35px;
+    border-radius: 3px;
+}
+.logo_menu ul li a{
+    background: linear-gradient(to top, #c5c1c1, #e5e3e3);
+}
+.logo_menu ul li a:hover{
+    background: linear-gradient(to top, #d6150b, #fe4912);
+    color: #ffffff;
+}
+
+table{
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    background: linear-gradient(to top, #d7170c, #fd4712);
+}
+thead{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+hr{
+    width: 100%;
+
+}
+.login{
+    color: #000;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(to top, #d7170c, #fd4712);
+    padding: 15px;
+}
+.login p{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+.login input{
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 24px;
+    margin: 0 auto;
+    border: none;
+    padding: 4px;
+}
+input[type='submit']{
+    margin-top: 10px;
+    height: 50px;
+    background: linear-gradient(to top, #c5c1c1, #e5e3e3);
+
+}
+input[type='submit']:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(to top, #d6150b, #fe4912);
+}
+.test{
+    margin: 5px;
+    border: 1px solid #aaaaaa;
+    background-color: #eeeeee;
+    color: #000000;
+    font: 12px Arial, Tahoma, Verdana, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.test h1,h2{
+    text-align: left;
+}
+.test form{
+    padding-bottom: 10px;
+    text-align: left;
+}
+.test input[type='submit']{
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    margin: 0 auto;
+}
+p.answer{
+    border-bottom: double;
+    border-color: #aaaaaa;
+}
+p.question{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 1px #aaaaaa solid;
+}
+#score{
+    font-weight: bold;
+    font-size: 72px;
+}
+#result{
+    margin-left: 272px;
+    margin-top: -31px;
+    width: 621px;
+    height: 35px;
+    border-radius: 3px;
+    text-align: center;
+}
+.errors{
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+	height: 30px;
+	padding-top: 8px;
+}
